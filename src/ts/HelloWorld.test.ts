@@ -40,9 +40,12 @@ const keyboard: Product = {
 const order1: OrderDetails = {
   product: keyboard,
   quantity: 10,
+  discount: (discount) => order1.product.price * order1.quantity * (100 - discount) / 100
+/*
   discount: function (discount) {
     return this.product.price * this.quantity * (100 - discount) / 100
   }
+*/
 };
 
 
