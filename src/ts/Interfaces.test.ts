@@ -13,16 +13,16 @@ it("interface based person should work properly", () => {
 });
 
 interface IProduct {
-  name: string,
-  unitPrice: number,
-  age?: number
+  name: string;
+  unitPrice: number;
+  age?: number;
 }
 
 interface IOrderDetails {
-  product: IProduct,
-  quantity: number,
-  dateAdd?: Date,
-  getTotalPrice(discount?: number): number,
+  product: IProduct;
+  quantity: number;
+  dateAdd?: Date;
+  getTotalPrice(discount?: number): number;
 }
 
 const magicKeyboard2: IProduct = {
@@ -44,4 +44,4 @@ const order3: IOrderDetails = {
   getTotalPrice(discount?: number): number {
     return this.product.unitPrice * this.quantity * (100 - (discount || 0)) / 100;
   }
-}
+};
