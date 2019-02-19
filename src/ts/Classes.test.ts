@@ -9,4 +9,5 @@ it("Test the usage of Typescript classes", () => {
   expect(magicKeyboardName).toBe(order1.product.name);
   expect(magicKeyboardName).toBe(magicKeyboard.name);
   expect(180).toBe(order1.getTotalPrice(10));
+  expect(200).toBe(order1.getTotalPrice());
 });

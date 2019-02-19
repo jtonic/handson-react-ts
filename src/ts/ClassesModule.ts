@@ -28,7 +28,7 @@ class OrderDetails implements IPriceCompute {
     return this._product;
   }
 
-  getTotalPrice(discount: number): number {
+  getTotalPrice(discount: number = 0): number {
     return this._product.unitPrice * this._quantity * (100 - discount) / 100;
   }
 }

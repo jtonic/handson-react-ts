@@ -2,8 +2,19 @@ This project is for learning mainly ReactJS/TypeScript/Jest
 ===
 
 - Exercises for what I am going to learn from the book `Learn React with TypeScript 3`
-- Create a web application with these technologies - theme: [blackjack](https://www.pagat.com/banking/blackjack.html) 
+- Create a web application with these technologies - theme: [blackjack](https://www.pagat.com/banking/blackjack.html)
 
+Typescript
+---
+1. Class offerings
+  1. default parameters both in constructor and methods
+  1. readonly properties
+  1. custom getters/setters
+  1. private fields
+  1. abstract classes
+  1. public/mutable properties simplification with public access modifier in front of constructor parameters
+  1. static methods
+  1. optional properties (`?: type`)
 
 Below is the readme.md created by the `create-react-app` generator.
 
