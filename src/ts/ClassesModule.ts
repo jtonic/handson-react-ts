@@ -1,6 +1,6 @@
 class Product {
-  name: string;
-  unitPrice: number;
+  readonly name: string;
+  readonly unitPrice: number;
 
   constructor(name: string, unitPrice: number) {
     this.name = name;
